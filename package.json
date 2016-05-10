@@ -1,0 +1,7 @@
+{
+    "name": "eslint-config-axbit",
+    "description": "Axbit's ESLint configuration",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": ".eslintrc.js"
+}
