@@ -1,10 +1,8 @@
 module.exports = {
 
-    // 'parserOptions' is options about syntax
-    // 'env' defines global variables
-
     "extends": "eslint:recommended",
 
+    // "parserOptions" is options about syntax
     "parserOptions": {
         "sourceType": "script",
         "ecmaFeatures": {
@@ -15,6 +13,8 @@ module.exports = {
         }
     },
 
+    // "env" defines global variables
+    // NB! "es6": true includes "parserOptions": { "ecmaVersion": 6 }
     "env": {
         "amd": false,
         "applescript": false,
