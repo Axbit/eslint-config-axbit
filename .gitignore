@@ -1,0 +1,5 @@
+# Always ignore
+.ssh
+
+# Ignore IDE/tools stuff
+.idea
